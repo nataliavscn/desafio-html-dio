@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sobre HTML</title>
+    </head>
+    <style>
+        * {
+            padding: 5px;
+            border: 0;
+        }
+
+        h1 {
+            text-align: left;
+            color: #191970;
+            font-size:x-large;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+        }
+
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: auto;
+        }
+
+        ul {
+            margin-left: 45px;
+        }
+
+        .estrutura {
+            font-weight: bold;
+            margin-left: 50px;
+        }
+    </style>
+    <body>
+        
+        <h1>O que é HTML?</h1>
+
+        <p> HTML significa <strong> Markup Language (Linguagem de marcação de HiperTexto)</strong>. <br>
+            HTML é um componente básico da web, ele permite inserir o conteúdo e estabelecer <br>
+            a estruturabásica de um website. Portanto ele serve para dar significado e organizar <br>
+            as informações de uma página.
+        </p>
+
+        <h1>Como funciona o HTML?</h1>
+        <p>É uma linguagem de marcação. Estas linguagens são constituídas de códigos que <br>
+        delimitam conteúdos específicos, segundo uma sintaxe própria. O HTML tem códigos <br>
+        para criar paginas na web. Estes códigos que definem o tipo de letra, qual o tamanho, <br>
+        cor, espaçamento, e vários outros aspectos do site. 
+        </p>
+
+        <h1> O que são tags?</h1>
+        <p>As tags são códigos que definem toda a estrutura da página, tais como o seu tamanho, <br>
+        a fonte da letra, as cores, as quebras de linha e etc. A maioria dos elementos do <br>
+        documento HTML são compostos por uma estrutura de abertura e uma de fachamento, <br>
+        como &lt/tag> e &lt/tag>. Há também tags de estrutura única, como a  tag &ltbr/> que <br>
+        realiza uma quebra de linha.
+        </p>
+        
+        <h1>Principais tags do HTML</h1>
+
+        <p>Atualmente existem mais de 140 tags, mas algumas delas quase não são utilizadas. <br>
+            Dentre as mais utilizadas temos:
+        </p>
+
+        <ul>
+            <li><b>&lthead></b> – local para declarar todas informações, como título e <br>
+            metadados da sua página;</li>
+
+            <li><b>&lttitle></b> – define o título;</li>
+
+            <li><b>&ltbody></b> – local para declarar todos os elementos que irão compor <br>
+            o corpo da página;</li>
+
+            <li><b>&lth1>,&lth2>,&lth3>,&lth4>,&lth5> e &lth6></b> – Tags para definir um <br>
+            título e subtítulos, variando de 1 a 6, sendo h1 o título mais importante <br>
+            e h6 o de>enor importância;</li>
+
+            <li><b>&ltp></b> – Tag para definir um parágrafo;</li>
+
+            <li><b>&lta></b> – Tag de link, junto ao atributo href=”” é <br>
+            responsável pela principal característica da web;</li>
+
+            <li><b>&ltheader></b> – define um cabeçalho; </li>
+
+            <li><b>&ltsection></b> – define uma seção;</li>
+
+            <li><b>&ltarticle></b> – define um artigo; </li>
+
+            <li><b>&ltdiv></b> – define uma divisão; </li>
+
+            <li><b>&ltfooter></b> – define um rodapé; </li>
+
+            <li><b>&ltnav></b> – define uma área de navegação (como menus);</li>
+
+            <li><b>&lttable></b> – define uma tabela;</li>
+
+            <li><b>&ltol></b> – define uma lista ordenada;</li>
+
+            <li><b>&ltul></b> – define uma lista não ordenada;</li>
+
+            <li><b>&ltli></b> – define o item de uma lista;</li>
+
+            <li><b>&ltform></b> – define um formulário;</li>
+
+            <li><b>&ltinput></b> – define os campos do formulário;</li>
+
+            <li><b>&lttextarea></b> – define uma área para o usuário digitar um texto;</li>
+
+            <li><b>&ltbutton></b> – define um botão;</li>
+
+            <li><b>&ltimg></b> – permite inserir uma imagem no seu documento.</li>
+        </ul>
+
+        <h1>A estrutura básica de um documento HTML </h1>
+
+        <p>O documento deve conter uma declaração informando o doctype, que no caso do HTML5, <br>
+        basta declarar com o elemento &lt!DOCTYPE html>. Após isso iniciamos nosso documento <br>
+        com a tag &lthtml> que deverá ser fechada ao final do documento com &lt/html>. <br> <br>
+        Posteriormente, nosso documento deverá ter um elemento &lthead> que receberá todas <br>
+        as informações básicas da sua página, como o título, links de elementos externos, <br>
+        metadados, etc. Declaramos então um título para página através da tag &lttitle>. <br> <br>
+        Finalmente abrimos então a tag &ltbody> que consiste no corpo do nosso documento, <br>
+        onde ficarão todos os elementos que serão renderizados na tela do navegador. <br><br>
+        Dessa forma, temos a estrutura básica do nosso documento html:
+        </p>
+
+        <p class="estrutura">&lt!DOCTYPE html> <br>
+        &lthtml> <br><br>
+            &lthead><br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lttitle> &lt/title><br><br>
+            &lt/head><br><br>
+
+            &ltbody><br><br>
+
+            &lt/body><br>
+        &lt/html>
+        </p>
+
+
+    </body>
+</html>
